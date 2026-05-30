@@ -1,0 +1,10 @@
+@media (max-width: 920px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar,
+  .main {
+    padding: 24px;
+  }
+}
