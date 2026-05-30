@@ -402,3 +402,25 @@ body {
   border-radius: 999px;
   background: var(--primary);
 }
+
+.page-footer {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--dark-soft);
+}
+
+.developer-link {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.developer-link:hover,
+.developer-link:focus {
+  text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
