@@ -1,10 +1,220 @@
 @media (max-width: 920px) {
+  body {
+    align-items: flex-start;
+    padding: 16px;
+  }
+
   .card {
     grid-template-columns: 1fr;
+    border-radius: 20px;
   }
 
   .sidebar,
   .main {
-    padding: 24px;
+    padding: 20px;
+  }
+
+  .sidebar {
+    gap: 20px;
+  }
+
+  .profile-rect {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-top: -20px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .profile-rect .photo-bg {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-rect .avatar {
+    width: 148px;
+    height: 148px;
+  }
+
+  .sidebar .section-title {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .main {
+    border-left: none;
+    box-shadow: inset 0 0 0 1px var(--border), inset 0 -6px 0 0 var(--primary);
+  }
+
+  .main::before {
+    left: 16px;
+    right: 16px;
+  }
+
+  .block {
+    padding: 20px;
+  }
+
+  .block-title {
+    font-size: 0.95rem;
+  }
+
+  .main-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 12px;
+  }
+
+  .card {
+    border-radius: 18px;
+  }
+
+  .sidebar,
+  .main {
+    padding: 16px;
+  }
+
+  .sidebar {
+    gap: 16px;
+  }
+
+  .sidebar .photo {
+    margin: 14px 0;
+  }
+
+  .profile-rect {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-top: -16px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .profile-rect .photo-bg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-rect .avatar {
+    width: 128px;
+    height: 128px;
+  }
+
+  .profile-meta h2 {
+    font-size: 1.1rem;
+  }
+
+  .profile-meta h3 {
+    font-size: 0.92rem;
+  }
+
+  .sidebar .section-title {
+    font-size: 0.88rem;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .sidebar .info-item {
+    font-size: 0.9rem;
+  }
+
+  .main::before {
+    left: 12px;
+    right: 12px;
+  }
+
+  .block {
+    padding: 18px;
+  }
+
+  .block-title {
+    font-size: 0.92rem;
+  }
+
+  .main-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-header p {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .card {
+    border-radius: 16px;
+  }
+
+  .sidebar,
+  .main {
+    padding: 14px;
+  }
+
+  .sidebar {
+    gap: 12px;
+  }
+
+  .profile-rect {
+    width: calc(100% + 24px);
+    margin-left: -12px;
+    margin-top: -14px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .profile-rect .photo-bg {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-rect .avatar {
+    width: 112px;
+    height: 112px;
+  }
+
+  .profile-meta h2 {
+    font-size: 1rem;
+  }
+
+  .profile-meta h3 {
+    font-size: 0.88rem;
+  }
+
+  .sidebar .section-title {
+    font-size: 0.86rem;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .sidebar .info-item {
+    font-size: 0.88rem;
+  }
+
+  .main::before {
+    left: 10px;
+    right: 10px;
+  }
+
+  .block {
+    padding: 16px;
+  }
+
+  .block-title {
+    font-size: 0.9rem;
+  }
+
+  .main-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .main-header p {
+    font-size: 0.88rem;
   }
 }
